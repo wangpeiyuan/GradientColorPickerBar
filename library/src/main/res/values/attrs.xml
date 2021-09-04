@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GradientColorPickerBar">
+        <attr name="thumbSize" format="dimension" />
+        <attr name="thumbRadius" format="dimension" />
+        <attr name="thumbStrokeColor" format="color" />
+        <attr name="thumbStrokeWidth" format="dimension" />
+        <attr name="barHeight" format="dimension" />
+        <attr name="barRadius" format="dimension" />
+        <attr name="orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="colorEntries" format="reference" />
+        <attr name="progress" format="float" />
+    </declare-styleable>
+</resources>
